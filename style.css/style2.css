@@ -1,0 +1,166 @@
+/*Page2*/
+@media screen {
+    body{
+    background-color: black;
+   
+    }
+
+  .main{    
+    display: grid;
+    grid-template-columns: 2% 94% 2%;
+  }
+  .main2{
+      display: grid;
+      grid-template-columns: 49% 2% 49%;
+    }
+    .main3{
+      display: grid;
+      grid-template-columns: 50% 1% 49%;
+    }
+}
+.propos{
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  color: rgba(247, 0, 0, 0.678);
+}
+.sideL{
+  width: 30%;
+  background-color: rgba(255, 255, 0, 0.671);
+  margin-left: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.sideR{
+  width: 30%;
+  background-color: rgba(255, 255, 0, 0.671);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: 18%;
+}
+.nothing{
+  color: rgba(247, 0, 0, 0);
+  text-align: center;
+}
+.sideL2{
+  width: 30%;
+  background-color: rgba(255, 255, 0, 0.671);
+  margin-left: 100%;
+}
+.sideR2{
+  width: 30%;
+  background-color: rgba(255, 255, 0, 0.671);
+  margin-left: 18%;
+}
+.barreHorisontale{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 0, 0.671);
+  color: rgba(255, 255, 0, 0);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-right: 1%;
+}
+.barreVerticale{
+  width: 80%;
+  height: 35%;
+  background-color: rgba(255, 255, 0, 0.671);
+  color: rgba(255, 255, 0, 0);
+  margin-bottom: 10%;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.auteur{
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 45px;
+  margin-bottom: 90% ;
+  color: rgba(247, 0, 0, 0.678);
+}
+.image{
+  text-align: center;
+  margin-top: 5%;
+}
+.L2{
+  margin-top: 10%;
+  font-size: 35px;
+  text-align: left;
+  color: rgba(255, 255, 0, 0.575);
+}
+.chiefs{
+  font-size: 30px;
+color:rgba(247, 0, 0, 0.678) ;
+}
+.L3{
+  margin-top: 5%;
+  font-size: 30px;
+  text-align: left;
+}
+.button {
+  border-radius: 10px;
+  padding: 6px;
+  margin: 6px;
+  font-size: 20px;
+  text-align: center;
+  user-select: none;
+  text-decoration: none;
+  color: white;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 20%;
+  margin-top: 20%;
+
+
+  border: solid 1px rgba(255, 255, 0, 0.671);
+}
+
+.button:hover {
+  background-color: rgba(247, 0, 0, 0.678);
+  
+}
+
+.button:active {
+  background-color: white;
+  border:2px solid lightgray;
+  color: gray;
+}
+
+.button2 {
+  border-radius: 10px;
+  padding: 6px;
+  margin: 6px;
+  font-size: 20px;
+  text-align: center;
+  user-select: none;
+  text-decoration: none;
+  color: white;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ margin-left: 20%;
+ margin-top: 20%;
+  
+  border: solid 1px rgba(255, 255, 0, 0.671);
+}
+
+.button2:hover {
+  background-color: rgba(247, 0, 0, 0.678);
+  
+}
+
+.button2:active {
+  background-color: white;
+  border:2px solid lightgray;
+  color: gray;
+}
+.placementButton{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+
+/*div{
+  border: solid 3px rgba(255, 255, 0, 0.671);
+}

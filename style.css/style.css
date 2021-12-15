@@ -1,0 +1,62 @@
+/*Page1*/
+@media screen {
+    body{
+    background-color: rgba(247, 0, 0, 0.774);
+    border: solid 3px rgba(255, 255, 0, 0.671) ;
+    }
+
+  .main{    
+    display: grid;
+    grid-template-columns: auto;
+    }
+}
+
+.Roboto{
+    font-family: 'Roboto';
+    font-size: 60px;
+    text-align: center;
+    color: rgba(255, 255, 0, 0.671);
+}
+.image1{
+    border-radius: 100px;
+    border: solid 3px rgba(255, 255, 0, 0.671);
+    width: 30%;
+    margin-left: 35%;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+.button {
+    border-radius: 10px;
+    padding: 6px;
+    margin: 6px;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 70%;
+    border: 1px solid rgba(255, 255, 0, 0.671) ;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 0, 0.671);
+    
+}
+
+.button:active {
+    background-color: white;
+    border:2px solid lightgray;
+    color: gray;
+}
+div{
+    border: solid 2px rgba(255, 255, 0, 0.671);
+}
+
+

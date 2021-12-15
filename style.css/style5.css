@@ -1,0 +1,143 @@
+@media screen {
+    .body
+{
+    display:grid;
+    grid-template-rows: 1fr 7fr 0.5fr;
+    grid-template-columns: 2fr 8fr;
+    grid-template-areas:
+    "header header"
+    "side main"
+    "footer footer";
+    grid-gap: 10px;
+    background-color: rgba(247, 0, 0, 0.74);
+}
+}
+
+.header
+{
+    grid-area: header;
+    background-color: rgba(255, 255, 0, 0.589);
+    border: 2px solid rgba(247, 0, 0, 0.74);
+    grid-gap: 10px;
+    color: rgba(247, 0, 0, 0.74);
+    text-align: center;
+    height: 80%;
+}
+.side
+{
+    grid-area: side;
+    background-color:rgba(255, 255, 0, 0.589) ;
+    border: 2px solid rgba(247, 0, 0, 0.74);
+    grid-gap: 10px;
+    width: 100%;
+}
+.main
+{
+    grid-area: main;
+    grid-gap: 10px;
+    border: 2px solid black;
+}
+.footer
+{
+    grid-area: footer;
+    background-color: grey;
+    border: 2px solid black; 
+
+}
+.titre{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.photo1{
+    margin-top: 50%;
+
+}
+.texte{
+height: 16%;
+}
+.titre1{
+color: rgba(255, 255, 0, 0.671);
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+}
+.position{
+    color: rgba(255, 255, 0, 0.671);
+    font-size: 23px;
+    text-align: center;
+}
+.stats{
+    font-size: 20px;
+    text-align: left;
+}
+.texte{
+    font-size: 18px;
+    text-align: center;
+}
+.espace{
+    font-size: 18px;
+    text-align: center;
+    color:rgba(247, 0, 0, 0);
+}
+  .button {
+    border-radius: 10px;
+    padding: 6px;
+    margin: 6px;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.671);
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 20%;
+    margin-top: 10%; 
+    border: solid 1px rgba(255, 255, 0, 0.671);
+  }
+  
+  .button:hover {
+    background-color: rgba(255, 255, 0, 0.671);
+    color: rgba(247, 0, 0, 0.712);
+    border: 1px solid rgba(247, 0, 0, 0.712);
+  }
+  
+  .button:active {
+    background-color: white;
+    border:2px solid lightgray;
+    color: gray;
+  }
+  
+  .button2 {
+    border-radius: 10px;
+    padding: 6px;
+    margin: 6px;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+    text-decoration: none;
+    color: rgba(255, 255, 0, 0.671);
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 75%;
+    margin-top: 3%;
+    border: solid 1px rgba(255, 255, 0, 0.671);
+  }
+  
+  .button2:hover {
+    background-color: rgba(255, 255, 0, 0.671);
+    color: rgba(247, 0, 0, 0.712);
+    border: 1px solid rgba(247, 0, 0, 0.712);
+  }
+  
+  .button2:active {
+    background-color: white;
+    border:2px solid lightgray;
+    color: gray;
+  }
+/*div{
+    border: rgba(247, 0, 0, 0.74) solid 1px;
+}
